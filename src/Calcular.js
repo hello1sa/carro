@@ -15,11 +15,7 @@ export default function Calcular() {
       result = a + b;
     } else if (operador === '-') {
       result = a - b;
-    } else if (operador === '/') {
-      result = a / b;
-    } else if (operador === '*') {
-      result = a * b;
-    }
+    } 
     console.log('O Resultado é: ' + result);
     alert('O Resultado é: ' + result);
 
@@ -67,6 +63,8 @@ export default function Calcular() {
           <br />
           {Carro1} {operador} {Carro2} = {result}
         </h3>
+
+
       </form>
     </div>
   );
