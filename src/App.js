@@ -3,6 +3,7 @@ import './style.css';
 import Carro from './Carro';
 import Motor from './Motor';
 import Roda from './Roda';
+import Calcular from './Calcular'
 
 function Welcome(props) {
   return (
@@ -15,17 +16,18 @@ function App(props) {
   return (
     <div>
       <Welcome name="heloisa" />
-      <Welcome name="julia" />
-      <Welcome name="willian" />
+      <Welcome name="Vitória" />
+
       <Carro
         modelo="Relâmpago Mcqueen"
         nome="Fusion"
-        Motor
+        Motor="10"
         potencia="1.3"
         Roda
         aro="17"
       />
       <Carro modelo="Opala" nome="Opala 79" />
+      <Calcular/>
     </div>
   );
 }
